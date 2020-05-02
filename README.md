@@ -4,7 +4,7 @@
 
 ## Installation
 
-Refer to the [official documentation](https://docs.wilfredproject.org/en/latest/installation/) for more detailed information.
+Refer to the [official documentation](https://docs.wilfredproject.org/en/latest/#installation) for more detailed information.
 
 Make sure you already have Docker installed.
 

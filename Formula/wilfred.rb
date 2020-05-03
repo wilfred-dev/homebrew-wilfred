@@ -3,8 +3,8 @@ class Wilfred < Formula
 
     desc "A CLI for managing game servers using Docker"
     homepage "https://wilfredproject.org"
-    url "https://files.pythonhosted.org/packages/d2/eb/c7ccdac6e681c5aee18bf2d151295057d726ce06137ec246d0c24a3024fa/wilfred-0.6.0.tar.gz"
-    sha256 "39091ef575107127f99000177821d624f09a10451f257ab9b68d1d1136b812ea"
+    url "https://files.pythonhosted.org/packages/db/68/70192a2264d0bfe5c9ccf0015715f10f490a678a2010cc53718e32a83dc2/wilfred-0.6.1.tar.gz"
+    sha256 "e0810462c85b227a7e991476c70dc896b6fc0e0f2b1feac44e5c0e4a644dd44f"
 
     depends_on "python"
     depends_on "docker"
@@ -25,8 +25,8 @@ class Wilfred < Formula
     end
 
     resource "click" do
-      url "https://files.pythonhosted.org/packages/4e/ab/5d6bc3b697154018ef196f5b17d958fac3854e2efbc39ea07a284d4a6a9b/click-7.1.1.tar.gz"
-      sha256 "8a18b4ea89d8820c5d0c7da8a64b2c324b4dabb695804dbfea19b9be9d88c0cc"
+      url "https://files.pythonhosted.org/packages/27/6f/be940c8b1f1d69daceeb0032fee6c34d7bd70e3e649ccac0951500b4720e/click-7.1.2.tar.gz"
+      sha256 "d2b5255c7c6349bc1bd1e59e08cd12acbbd63ce649f2588755783aa94dfb6b1a"
     end
 
     resource "colorama" do
@@ -95,8 +95,8 @@ class Wilfred < Formula
     end
 
     resource "urllib3" do
-      url "https://files.pythonhosted.org/packages/09/06/3bc5b100fe7e878d3dee8f807a4febff1a40c213d2783e3246edde1f3419/urllib3-1.25.8.tar.gz"
-      sha256 "87716c2d2a7121198ebcb7ce7cccf6ce5e9ba539041cfbaeecfb641dc0bf6acc"
+      url "https://files.pythonhosted.org/packages/05/8c/40cd6949373e23081b3ea20d5594ae523e681b6f472e600fbc95ed046a36/urllib3-1.25.9.tar.gz"
+      sha256 "3018294ebefce6572a474f0604c2021e33b3fd8006ecd11d62107a5d2a963527"
     end
 
     resource "websocket_client" do

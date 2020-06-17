@@ -3,8 +3,8 @@ class Wilfred < Formula
 
     desc "A CLI for managing game servers using Docker"
     homepage "https://wilfredproject.org"
-    url "https://files.pythonhosted.org/packages/db/68/70192a2264d0bfe5c9ccf0015715f10f490a678a2010cc53718e32a83dc2/wilfred-0.6.1.tar.gz"
-    sha256 "e0810462c85b227a7e991476c70dc896b6fc0e0f2b1feac44e5c0e4a644dd44f"
+    url "https://files.pythonhosted.org/packages/f1/51/9dccb2ad619f078ec30bffd3ae928cbac209b1382846117de2efa25e992f/wilfred-0.7.0.tar.gz"
+    sha256 "c75f6ace676d91776cd96a4ff1ba64c88afb67b570fda397f503cff1ab117f35"
 
     depends_on "python"
 
@@ -14,8 +14,8 @@ class Wilfred < Formula
     end
 
     resource "certifi" do
-      url "https://files.pythonhosted.org/packages/b8/e2/a3a86a67c3fc8249ed305fc7b7d290ebe5e4d46ad45573884761ef4dea7b/certifi-2020.4.5.1.tar.gz"
-      sha256 "51fcb31174be6e6664c5f69e3e1691a2d72a1a12e90f872cbdb1567eb47b6519"
+      url "https://files.pythonhosted.org/packages/b4/19/53433f37a31543364c8676f30b291d128cdf4cd5b31b755b7890f8e89ac8/certifi-2020.4.5.2.tar.gz"
+      sha256 "5ad7e9a056d25ffa5082862e36f119f7f7cec6457fa07ee2f8c339814b80c9b1"
     end
 
     resource "chardet" do

@@ -3,8 +3,8 @@ class Wilfred < Formula
 
     desc "A CLI for managing game servers using Docker"
     homepage "https://wilfredproject.org"
-    url "https://files.pythonhosted.org/packages/f1/51/9dccb2ad619f078ec30bffd3ae928cbac209b1382846117de2efa25e992f/wilfred-0.7.0.tar.gz"
-    sha256 "c75f6ace676d91776cd96a4ff1ba64c88afb67b570fda397f503cff1ab117f35"
+    url "https://files.pythonhosted.org/packages/7f/19/809243eb2e1d2e05724bd8dd4073f31d20fa193ce214f810cbe748bdaace/wilfred-0.7.1.tar.gz"
+    sha256 "348032acd11ffd1324c0dc789026638ee721c39d767541dca8d2a44de64651bc"
 
     depends_on "python"
 
@@ -64,8 +64,8 @@ class Wilfred < Formula
     end
 
     resource "requests" do
-      url "https://files.pythonhosted.org/packages/f5/4f/280162d4bd4d8aad241a21aecff7a6e46891b905a4341e7ab549ebaf7915/requests-2.23.0.tar.gz"
-      sha256 "b3f43d496c6daba4493e7c431722aeb7dbc6288f52a6e04e7b6023b0247817e6"
+      url "https://files.pythonhosted.org/packages/da/67/672b422d9daf07365259958912ba533a0ecab839d4084c487a5fe9a5405f/requests-2.24.0.tar.gz"
+      sha256 "b3559a131db72c33ee969480840fff4bb6dd111de7dd27c8ee1f820f4f00231b"
     end
 
     resource "six" do

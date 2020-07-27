@@ -94,8 +94,8 @@ class Wilfred < Formula
     end
 
     resource "urllib3" do
-      url "https://files.pythonhosted.org/packages/05/8c/40cd6949373e23081b3ea20d5594ae523e681b6f472e600fbc95ed046a36/urllib3-1.25.9.tar.gz"
-      sha256 "3018294ebefce6572a474f0604c2021e33b3fd8006ecd11d62107a5d2a963527"
+      url "https://files.pythonhosted.org/packages/81/f4/87467aeb3afc4a6056e1fe86626d259ab97e1213b1dfec14c7cb5f538bf0/urllib3-1.25.10.tar.gz"
+      sha256 "91056c15fa70756691db97756772bb1eb9678fa585d9184f24534b100dc60f4a"
     end
 
     resource "websocket_client" do

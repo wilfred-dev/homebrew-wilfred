@@ -14,8 +14,8 @@ class Wilfred < Formula
     end
 
     resource "certifi" do
-      url "https://files.pythonhosted.org/packages/40/a7/ded59fa294b85ca206082306bba75469a38ea1c7d44ea7e1d64f5443d67a/certifi-2020.6.20.tar.gz"
-      sha256 "5930595817496dd21bb8dc35dad090f1c2cd0adfaf21204bf6732ca5d8ee34d3"
+      url "https://files.pythonhosted.org/packages/e6/de/879cf857ae6f890dfa23c3d6239814c5471936b618c8fb0c8732ad5da885/certifi-2020.11.8.tar.gz"
+      sha256 "f05def092c44fbf25834a51509ef6e631dc19765ab8a57b4e7ab85531f0a9cf4"
     end
 
     resource "chardet" do
@@ -29,23 +29,18 @@ class Wilfred < Formula
     end
 
     resource "colorama" do
-      url "https://files.pythonhosted.org/packages/82/75/f2a4c0c94c85e2693c229142eb448840fba0f9230111faa889d1f541d12d/colorama-0.4.3.tar.gz"
-      sha256 "e96da0d330793e2cb9485e9ddfd918d456036c7149416295932478192f4436a1"
-    end
-
-    resource "cursor" do
-      url "https://files.pythonhosted.org/packages/b7/6a/c99e426288c8b0d229107a09137cf0518a84c9891af796802a5f888da0d0/cursor-1.3.4.tar.gz"
-      sha256 "33f279a17789c04efd27a92501a0dad62bb011f8a4cdff93867c798d26508940"
+      url "https://files.pythonhosted.org/packages/1f/bb/5d3246097ab77fa083a61bd8d3d527b7ae063c7d8e8671b1cf8c4ec10cbe/colorama-0.4.4.tar.gz"
+      sha256 "5941b2b48a20143d2267e95b1c2a7603ce057ee39fd88e7329b0c292aa16869b"
     end
 
     resource "docker" do
-      url "https://files.pythonhosted.org/packages/d8/19/25ddbe30edff87274afb2b364c653c7f7bbdd515337700377f1adf0834c5/docker-4.2.2.tar.gz"
-      sha256 "26eebadce7e298f55b76a88c4f8802476c5eaddbdbe38dbc6cce8781c47c9b54"
+      url "https://files.pythonhosted.org/packages/b3/48/014af5285463adb8079f32f603c0d6d19c16d92a113ebacc6b07522dcff5/docker-4.3.1.tar.gz"
+      sha256 "bad94b8dd001a8a4af19ce4becc17f41b09f228173ffe6a4e0355389eef142f2"
     end
 
     resource "halo" do
-      url "https://files.pythonhosted.org/packages/9e/5e/ff4ebf3820910e8e8a810db7287b6d99b96e09eadbc14d067e423ef07c6c/halo-0.0.29.tar.gz"
-      sha256 "a8aeb0164e269d7c96fb7444b2a4caaa09b8989fa0c85e6a26e8b2c6d1af3b9d"
+      url "https://files.pythonhosted.org/packages/ee/48/d53580d30b1fabf25d0d1fcc3f5b26d08d2ac75a1890ff6d262f9f027436/halo-0.0.31.tar.gz"
+      sha256 "7b67a3521ee91d53b7152d4ee3452811e1d2a6321975137762eb3d70063cc9d6"
     end
 
     resource "idna" do
@@ -64,8 +59,8 @@ class Wilfred < Formula
     end
 
     resource "requests" do
-      url "https://files.pythonhosted.org/packages/da/67/672b422d9daf07365259958912ba533a0ecab839d4084c487a5fe9a5405f/requests-2.24.0.tar.gz"
-      sha256 "b3559a131db72c33ee969480840fff4bb6dd111de7dd27c8ee1f820f4f00231b"
+      url "https://files.pythonhosted.org/packages/9f/14/4a6542a078773957aa83101336375c9597e6fe5889d20abda9c38f9f3ff2/requests-2.25.0.tar.gz"
+      sha256 "7f1a0b932f4a60a1a65caa4263921bb7d9ee911957e0ae4a23a6dd08185ad5f8"
     end
 
     resource "six" do
@@ -79,8 +74,8 @@ class Wilfred < Formula
     end
 
     resource "SQLAlchemy" do
-      url "https://files.pythonhosted.org/packages/02/80/c83986fceeed04f7d42e3fd8a67e94e87b56afb223ee653e8a4a8986361e/SQLAlchemy-1.3.18.tar.gz"
-      sha256 "da2fb75f64792c1fc64c82313a00c728a7c301efe6a60b7a9fe35b16b4368ce7"
+      url "https://files.pythonhosted.org/packages/69/ef/6d18860e18db68b8f25e0d268635f2f8cefa7a1cbf6d9d9f90214555a364/SQLAlchemy-1.3.20.tar.gz"
+      sha256 "d2f25c7f410338d31666d7ddedfa67570900e248b940d186b48461bd4e5569a1"
     end
 
     resource "tabulate" do
@@ -94,8 +89,8 @@ class Wilfred < Formula
     end
 
     resource "urllib3" do
-      url "https://files.pythonhosted.org/packages/81/f4/87467aeb3afc4a6056e1fe86626d259ab97e1213b1dfec14c7cb5f538bf0/urllib3-1.25.10.tar.gz"
-      sha256 "91056c15fa70756691db97756772bb1eb9678fa585d9184f24534b100dc60f4a"
+      url "https://files.pythonhosted.org/packages/29/e6/d1a1d78c439cad688757b70f26c50a53332167c364edb0134cadd280e234/urllib3-1.26.2.tar.gz"
+      sha256 "19188f96923873c92ccb987120ec4acaa12f0461fa9ce5d3d0772bc965a39e08"
     end
 
     resource "websocket_client" do

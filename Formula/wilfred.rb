@@ -34,8 +34,8 @@ class Wilfred < Formula
     end
 
     resource "docker" do
-      url "https://files.pythonhosted.org/packages/b3/48/014af5285463adb8079f32f603c0d6d19c16d92a113ebacc6b07522dcff5/docker-4.3.1.tar.gz"
-      sha256 "bad94b8dd001a8a4af19ce4becc17f41b09f228173ffe6a4e0355389eef142f2"
+      url "https://files.pythonhosted.org/packages/51/ef/db02e409aa964ae590b8750d032afaafa60ab04d89ee7df0456101e77275/docker-4.4.0.tar.gz"
+      sha256 "cffc771d4ea1389fc66bc95cb72d304aa41d1a1563482a9a000fba3a84ed5071"
     end
 
     resource "halo" do

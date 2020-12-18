@@ -5,10 +5,10 @@ class Wilfred < Formula
     homepage "https://wilfredproject.org"
     url "https://files.pythonhosted.org/packages/7f/19/809243eb2e1d2e05724bd8dd4073f31d20fa193ce214f810cbe748bdaace/wilfred-0.7.1.tar.gz"
     sha256 "348032acd11ffd1324c0dc789026638ee721c39d767541dca8d2a44de64651bc"
+    license "MIT"
+    head "https://github.com/wilfred-dev/wilfred.git"
 
     depends_on "python"
-
-    conflicts_with "wilfrededge", because: "stable release of wilfred cannot be installed alongside edge"
 
     resource "appdirs" do
       url "https://files.pythonhosted.org/packages/d7/d8/05696357e0311f5b5c316d7b95f46c669dd9c15aaeecbb48c7d0aeb88c40/appdirs-1.4.4.tar.gz"
@@ -101,6 +101,8 @@ class Wilfred < Formula
     end
 
     def install
+      system 'sed -i "s/development/`git log -1 --format="%H"`/g" wilfred/version.py'
+      system 'sed -i "s/YYYY-MM-DD/`git log -1 --format="%at" | xargs -I{} date -d @{} +%Y-%m-%d`/g" wilfred/version.py'
       virtualenv_install_with_resources
     end
 

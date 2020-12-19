@@ -3,8 +3,8 @@ class Wilfred < Formula
 
     desc "A CLI for managing game servers using Docker"
     homepage "https://wilfredproject.org"
-    url "https://files.pythonhosted.org/packages/7f/19/809243eb2e1d2e05724bd8dd4073f31d20fa193ce214f810cbe748bdaace/wilfred-0.7.1.tar.gz"
-    sha256 "348032acd11ffd1324c0dc789026638ee721c39d767541dca8d2a44de64651bc"
+    url "https://files.pythonhosted.org/packages/d8/a2/82976eeb3a5fb50c14ac37bebe791ad899f2d6e5d47218e35ec2b5ae24d7/wilfred-0.8.0.tar.gz"
+    sha256 "c1493ea6ed3b99bc5a27181425f382f7d20a6baf356032ef821de3e71aa09885"
     license "MIT"
     head "https://github.com/wilfred-dev/wilfred.git"
 
@@ -76,8 +76,8 @@ class Wilfred < Formula
     end
 
     resource "SQLAlchemy" do
-      url "https://files.pythonhosted.org/packages/6f/e2/a51b021de8340f9fc4b6f6cb3483bb759b6792b1e28e9bd8b0b0bf37904e/SQLAlchemy-1.3.21.tar.gz"
-      sha256 "0bc49cba55b01b6827d1c303486da1afaaaf65a7a4d0e2be2cbc31c0f56752dc"
+      url "https://files.pythonhosted.org/packages/b7/10/b6d02efa2cb10dca0671fd62c9091c1e49831b266658fd7a056c577621cb/SQLAlchemy-1.3.22.tar.gz"
+      sha256 "758fc8c4d6c0336e617f9f6919f9daea3ab6bb9b07005eda9a1a682e24a6cacc"
     end
 
     resource "tabulate" do

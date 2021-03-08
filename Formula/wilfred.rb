@@ -36,8 +36,8 @@ class Wilfred < Formula
     end
 
     resource "docker" do
-      url "https://files.pythonhosted.org/packages/51/ef/db02e409aa964ae590b8750d032afaafa60ab04d89ee7df0456101e77275/docker-4.4.0.tar.gz"
-      sha256 "cffc771d4ea1389fc66bc95cb72d304aa41d1a1563482a9a000fba3a84ed5071"
+      url "https://files.pythonhosted.org/packages/fd/46/6f6116c30cb859a0cdb95444140e9fe0be0de455c9c83748ee421aec8274/docker-4.4.4.tar.gz"
+      sha256 "d3393c878f575d3a9ca3b94471a3c89a6d960b35feb92f033c0de36cc9d934db"
     end
 
     resource "halo" do
@@ -56,8 +56,8 @@ class Wilfred < Formula
     end
 
     resource "PyYAML" do
-      url "https://files.pythonhosted.org/packages/64/c2/b80047c7ac2478f9501676c988a5411ed5572f35d1beff9cae07d321512c/PyYAML-5.3.1.tar.gz"
-      sha256 "b8eac752c5e14d3eca0e6dd9199cd627518cb5ec06add0de9d32baeee6fe645d"
+      url "https://files.pythonhosted.org/packages/a0/a4/d63f2d7597e1a4b55aa3b4d6c5b029991d3b824b5bd331af8d4ab1ed687d/PyYAML-5.4.1.tar.gz"
+      sha256 "607774cbba28732bfa802b54baa7484215f530991055bb562efbed5b2f20a45e"
     end
 
     resource "requests" do
@@ -76,13 +76,13 @@ class Wilfred < Formula
     end
 
     resource "SQLAlchemy" do
-      url "https://files.pythonhosted.org/packages/b7/10/b6d02efa2cb10dca0671fd62c9091c1e49831b266658fd7a056c577621cb/SQLAlchemy-1.3.22.tar.gz"
-      sha256 "758fc8c4d6c0336e617f9f6919f9daea3ab6bb9b07005eda9a1a682e24a6cacc"
+      url "https://files.pythonhosted.org/packages/ac/cd/f871773f1c1eb043f639b6751d6342539a45da0836bfede6a6889cea5255/SQLAlchemy-1.3.23.tar.gz"
+      sha256 "6fca33672578666f657c131552c4ef8979c1606e494f78cd5199742dfb26918b"
     end
 
     resource "tabulate" do
-      url "https://files.pythonhosted.org/packages/57/6f/213d075ad03c84991d44e63b6516dd7d185091df5e1d02a660874f8f7e1e/tabulate-0.8.7.tar.gz"
-      sha256 "db2723a20d04bcda8522165c73eea7c300eda74e0ce852d9022e0159d7895007"
+      url "https://files.pythonhosted.org/packages/ae/3d/9d7576d94007eaf3bb685acbaaec66ff4cdeb0b18f1bf1f17edbeebffb0a/tabulate-0.8.9.tar.gz"
+      sha256 "eb1d13f25760052e8931f2ef80aaf6045a6cceb47514db8beab24cded16f13a7"
     end
 
     resource "termcolor" do
@@ -91,13 +91,13 @@ class Wilfred < Formula
     end
 
     resource "urllib3" do
-      url "https://files.pythonhosted.org/packages/29/e6/d1a1d78c439cad688757b70f26c50a53332167c364edb0134cadd280e234/urllib3-1.26.2.tar.gz"
-      sha256 "19188f96923873c92ccb987120ec4acaa12f0461fa9ce5d3d0772bc965a39e08"
+      url "https://files.pythonhosted.org/packages/d7/8d/7ee68c6b48e1ec8d41198f694ecdc15f7596356f2ff8e6b1420300cf5db3/urllib3-1.26.3.tar.gz"
+      sha256 "de3eedaad74a2683334e282005cd8d7f22f4d55fa690a2a1020a416cb0a47e73"
     end
 
-    resource "websocket_client" do
-      url "https://files.pythonhosted.org/packages/8b/0f/52de51b9b450ed52694208ab952d5af6ebbcbce7f166a48784095d930d8c/websocket_client-0.57.0.tar.gz"
-      sha256 "d735b91d6d1692a6a181f2a8c9e0238e5f6373356f561bb9dc4c7af36f452010"
+    resource "websocket-client" do
+      url "https://files.pythonhosted.org/packages/4a/df/112c278ba1ead96786d24d973429ce1e1a2c86b9843183d9f8ef8c6330d7/websocket_client-0.58.0.tar.gz"
+      sha256 "63509b41d158ae5b7f67eb4ad20fecbb4eee99434e73e140354dc3ff8e09716f"
     end
 
     def install

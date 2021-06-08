@@ -16,8 +16,8 @@ class Wilfred < Formula
     end
 
     resource "certifi" do
-      url "https://files.pythonhosted.org/packages/06/a9/cd1fd8ee13f73a4d4f491ee219deeeae20afefa914dfb4c130cfc9dc397a/certifi-2020.12.5.tar.gz"
-      sha256 "1a4995114262bffbc2413b159f2a1a480c969de6e6eb13ee966d470af86af59c"
+      url "https://files.pythonhosted.org/packages/6d/78/f8db8d57f520a54f0b8a438319c342c61c22759d8f9a1cd2e2180b5e5ea9/certifi-2021.5.30.tar.gz"
+      sha256 "2bbf76fd432960138b3ef6dda3dde0544f27cbf8546c458e60baf371917ba9ee"
     end
 
     resource "chardet" do
@@ -50,11 +50,6 @@ class Wilfred < Formula
       sha256 "b307872f855b18632ce0c21c5e45be78c0ea7ae4c15c828c20788b26921eb3f6"
     end
 
-    resource "importlib-metadata" do
-      url "https://files.pythonhosted.org/packages/22/1a/7898a186c81c69b81a4e065065671431c40f34ab801c3e0c4e840b1a7010/importlib_metadata-4.3.0.tar.gz"
-      sha256 "c4646abbce80191bb548636f846e353ff1edc46a06bc536ea0a60d53211dc690"
-    end
-
     resource "log-symbols" do
       url "https://files.pythonhosted.org/packages/45/87/e86645d758a4401c8c81914b6a88470634d1785c9ad09823fa4a1bd89250/log_symbols-0.0.14.tar.gz"
       sha256 "cf0bbc6fe1a8e53f0d174a716bc625c4f87043cc21eb55dd8a740cfe22680556"
@@ -81,8 +76,8 @@ class Wilfred < Formula
     end
 
     resource "SQLAlchemy" do
-      url "https://files.pythonhosted.org/packages/df/b7/9c09a82fdb8a6a814ab51a874856abd28a280260ab5c13e532628fcddbe9/SQLAlchemy-1.4.15.tar.gz"
-      sha256 "0ff100c75cd175f35f4d24375a0b3d82461f5b1af5fc8d112ef0e5ceea8049e6"
+      url "https://files.pythonhosted.org/packages/23/18/a93bbb6d361febc3df077dd4258ef552722d86969ea238821142d5123643/SQLAlchemy-1.4.17.tar.gz"
+      sha256 "651cdb3adcee13624ba22d5ff3e96f91e16a115d2ca489ddc16a8e4c217e8509"
     end
 
     resource "tabulate" do
@@ -95,11 +90,6 @@ class Wilfred < Formula
       sha256 "1d6d69ce66211143803fbc56652b41d73b4a400a2891d7bf7a1cdf4c02de613b"
     end
 
-    resource "typing-extensions" do
-      url "https://files.pythonhosted.org/packages/aa/55/62e2d4934c282a60b4243a950c9dbfa01ae7cac0e8d6c0b5315b87432c81/typing_extensions-3.10.0.0.tar.gz"
-      sha256 "50b6f157849174217d0656f99dc82fe932884fb250826c18350e159ec6cdf342"
-    end
-
     resource "urllib3" do
       url "https://files.pythonhosted.org/packages/94/40/c396b5b212533716949a4d295f91a4c100d51ba95ea9e2d96b6b0517e5a5/urllib3-1.26.5.tar.gz"
       sha256 "a7acd0977125325f516bda9735fa7142b909a8d01e8b2e4c8108d0984e6e0098"
@@ -108,11 +98,6 @@ class Wilfred < Formula
     resource "websocket-client" do
       url "https://files.pythonhosted.org/packages/2f/34/d513d60a491abe0da2e8b37e28e945957f23f9bf642007f008039788ff2a/websocket-client-1.0.1.tar.gz"
       sha256 "3e2bf58191d4619b161389a95bdce84ce9e0b24eb8107e7e590db682c2d0ca81"
-    end
-
-    resource "zipp" do
-      url "https://files.pythonhosted.org/packages/38/f9/4fa6df2753ded1bcc1ce2fdd8046f78bd240ff7647f5c9bcf547c0df77e3/zipp-3.4.1.tar.gz"
-      sha256 "3607921face881ba3e026887d8150cca609d517579abe052ac81fc5aeffdbd76"
     end
 
     def install

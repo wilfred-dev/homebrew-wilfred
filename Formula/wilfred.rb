@@ -100,11 +100,11 @@ class Wilfred < Formula
       sha256 "8dfb715d8a992f5712fff8c843adae94e22b22a99b2c5e6b0ec4a1a981cc4e0d"
     end
 
-    # def install
-    #   system 'sed -i "s/development/`git log -1 --format="%H"`/g" wilfred/version.py'
-    #   system 'sed -i "s/YYYY-MM-DD/`git log -1 --format="%at" | xargs -I{} date -d @{} +%Y-%m-%d`/g" wilfred/version.py'
-    #   virtualenv_install_with_resources
-    # end
+    def install
+      # system 'sed -i "s/development/`git log -1 --format="%H"`/g" wilfred/version.py'
+      # system 'sed -i "s/YYYY-MM-DD/`git log -1 --format="%at" | xargs -I{} date -d @{} +%Y-%m-%d`/g" wilfred/version.py'
+      virtualenv_install_with_resources
+    end
 
     test do
         ENV["LC_ALL"] = "en_US.UTF-8"

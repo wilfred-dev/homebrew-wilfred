@@ -1,6 +1,10 @@
 #!/bin/bash
 
-virtualenv venv
+PYTHON="python3.9"
+
+$PYTHON -m pip install virtualenv
+
+$PYTHON -m virtualenv venv
 venv/bin/pip install wilfred homebrew-pypi-poet
 venv/bin/poet wilfred
 

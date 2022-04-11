@@ -101,8 +101,8 @@ class Wilfred < Formula
     end
 
     def install
-      # system 'sed -i "s/development/`git log -1 --format="%H"`/g" wilfred/version.py'
-      # system 'sed -i "s/YYYY-MM-DD/`git log -1 --format="%at" | xargs -I{} date -d @{} +%Y-%m-%d`/g" wilfred/version.py'
+      system 'sed -i "s/development/`git log -1 --format="%H" || echo error`/g" wilfred/version.py'
+      system 'sed -i "s/YYYY-MM-DD/`(git log -1 --format="%at" || echo error) | (xargs -I{} date -d @{} +%Y-%m-%d || echo error)`/g" wilfred/version.py'
       virtualenv_install_with_resources
     end
 

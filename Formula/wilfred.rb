@@ -101,8 +101,8 @@ class Wilfred < Formula
     end
 
     def install
-      system 'python -c "print(open(\'wilfred/version.py\').read().replace(\'development\',\'`git log -1 --format="%H" || echo error`\'))"'
-      system 'python -c "print(open(\'wilfred/version.py\').read().replace(\'YYYY-MM-DD\',\'`(git log -1 --format="%at" || echo error) | (xargs -I{} date -d @{} +%Y-%m-%d || echo error)`\'))"'
+      system 'python -c "print(open(\'wilfred/version.py\').read().replace(\'development\',\'`git log -1 --format="%H" || echo error`\'), file=open(\'\wilfred/version.py', \'w\'))"'
+      system 'python -c "print(open(\'wilfred/version.py\').read().replace(\'YYYY-MM-DD\',\'`(git log -1 --format="%at" || echo error) | (xargs -I{} date -d @{} +%Y-%m-%d || echo error)`\'), file=open(\'wilfred/version.py\', \'w\'))"'
       virtualenv_install_with_resources
     end
 

@@ -3,8 +3,8 @@ class Wilfred < Formula
 
     desc "A CLI for managing game servers using Docker"
     homepage "https://wilfredproject.org"
-    url "https://files.pythonhosted.org/packages/86/6c/10de7b624614f0bf1c137a97ea9a347e28be9c918f418c9dd38cbe66a7e9/wilfred-0.9.0.tar.gz"
-    sha256 "be76fc94fab5026a1e0bca5e7159d10d1186f78d454ae624fbe8b5a4cc33d2a6"
+    url "https://files.pythonhosted.org/packages/72/b9/263801220af894feddb1d6308077db930c50a722f03ad993a878b5157edb/wilfred-0.10.0.tar.gz"
+    sha256 "8ee8c2ddffa725b34235fd66f31399e28936b461571bee93e184aa708d197ae3"
     license "MIT"
     head "https://github.com/wilfred-dev/wilfred.git"
 

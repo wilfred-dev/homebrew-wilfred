@@ -3,8 +3,8 @@ class Wilfred < Formula
 
     desc "A CLI for managing game servers using Docker"
     homepage "https://wilfredproject.org"
-    url "https://files.pythonhosted.org/packages/72/b9/263801220af894feddb1d6308077db930c50a722f03ad993a878b5157edb/wilfred-0.10.0.tar.gz"
-    sha256 "8ee8c2ddffa725b34235fd66f31399e28936b461571bee93e184aa708d197ae3"
+    url "https://files.pythonhosted.org/packages/75/39/f69d29048133e09888219d2aad3c5c7ffad75cf9f71179c460e2703ead00/wilfred-0.10.1.tar.gz"
+    sha256 "57d73fb94fc9b168f071fafa6a91612f2c5ebb495f9deb6683d65b78291dbe98"
     license "MIT"
     head "https://github.com/wilfred-dev/wilfred.git"
 
@@ -26,8 +26,8 @@ class Wilfred < Formula
     end
 
     resource "click" do
-      url "https://files.pythonhosted.org/packages/42/e1/4cb2d3a2416bcd871ac93f12b5616f7755a6800bccae05e5a99d3673eb69/click-8.1.2.tar.gz"
-      sha256 "479707fe14d9ec9a0757618b7a100a0ae4c4e236fac5b7f80ca68028141a1a72"
+      url "https://files.pythonhosted.org/packages/59/87/84326af34517fca8c58418d148f2403df25303e02736832403587318e9e8/click-8.1.3.tar.gz"
+      sha256 "7682dc8afb30297001674575ea00d1814d808d6a36af415a82bd481d37ba7b8e"
     end
 
     resource "colorama" do
@@ -76,8 +76,8 @@ class Wilfred < Formula
     end
 
     resource "SQLAlchemy" do
-      url "https://files.pythonhosted.org/packages/f6/d6/fcf14b752daba13a02a6669eccb025bf3ba3f814741cd23253c180a12fff/SQLAlchemy-1.4.35.tar.gz"
-      sha256 "2ffc813b01dc6473990f5e575f210ca5ac2f5465ace3908b78ffd6d20058aab5"
+      url "https://files.pythonhosted.org/packages/fb/b0/53e540c9fad14ac2da8a15ae95d707b167f64f62d85d4f506b0335dfd66d/SQLAlchemy-1.4.36.tar.gz"
+      sha256 "64678ac321d64a45901ef2e24725ec5e783f1f4a588305e196431447e7ace243"
     end
 
     resource "tabulate" do
